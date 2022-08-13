@@ -1,0 +1,4 @@
+useDynLib(NUNC, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+importFrom("stats", "qchisq", "quantile", "uniroot")
